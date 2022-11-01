@@ -1,1 +1,0 @@
-# brink-daniel.github.io
