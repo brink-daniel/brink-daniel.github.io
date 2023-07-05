@@ -14,8 +14,8 @@ include:
   - ISSUE_TEMPLATE.md
   - PULL_REQUEST_TEMPLATE.md
 remote_theme: pages-themes/minimal@v0.2.0
-title: 
+title: SQLMedic
 description: 
 logo: Logo.png
-name: sqlmedic
-title: null
+name: true
+title: false
