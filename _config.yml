@@ -17,3 +17,5 @@ remote_theme: pages-themes/minimal@v0.2.0
 title: 
 description: 
 logo: Logo.png
+name: sqlmedic
+title: null
