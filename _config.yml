@@ -14,6 +14,6 @@ include:
   - ISSUE_TEMPLATE.md
   - PULL_REQUEST_TEMPLATE.md
 remote_theme: pages-themes/minimal@v0.2.0
-title: SQLMedic
-description: Anything can be fixed
+title: 
+description: 
 logo: Logo.png
