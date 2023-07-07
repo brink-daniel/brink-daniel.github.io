@@ -12,11 +12,11 @@ Information on how to access the Object Explorer and TreeView control was learnt
 
 ## Compatibility
 
-This extension has only been tested and used on SQL Server Management Studio 19.1.
+This extension has only been tested and used with SQL Server Management Studio 19.1.
 
 You can download the latest version of SSMS for free from [Microsoft](https://learn.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms).
 
-This extension has not yet been tested alongside any other extensions for SQL Server Management Studio.
+This extension has not been tested alongside any other extensions. 
 
 
 ## Install
@@ -61,6 +61,9 @@ The following tags are replaced in tsql scripts and statements before execution:
 | Context | Script |
 |---------|--------|
 | All | [text_substitution_demo.sql](https://github.com/brink-daniel/ssms-object-explorer-menu/blob/main/scripts/text_substitution_demo.sql) |
+| Server_Database_Table | [script_data_as_insert.sql](https://github.com/brink-daniel/ssms-object-explorer-menu/blob/main/scripts/script_data_as_insert.sql) |
+| Server_Database_StoredProcedure | [stored_procedure_unit_test.sql](https://github.com/brink-daniel/ssms-object-explorer-menu/blob/main/scripts/stored_procedure_unit_test.sql) |
+| Server_Database_StoredProceduresFolder | [stored_procedure_unit_test_all.sql](https://github.com/brink-daniel/ssms-object-explorer-menu/blob/main/scripts/stored_procedure_unit_test_all.sql) |
 
 
 ## Known Issues
