@@ -1,6 +1,7 @@
 plugins:
   - jekyll-relative-links
   - jekyll-remote-theme
+  - jekyll-sitemap
 relative_links:
   enabled: true
   collections: true
@@ -10,5 +11,5 @@ remote_theme: pages-themes/minimal@v0.2.0
 logo: Logo.png
 title: SQLMedic
 tagline: Anything can be fixed
-description: Extension for SQL Server Management Studio for adding custom menu items to the Object Explorer
-url: sqlmedic.com
+description: Extension for SQL Server Management Studio for adding custom menu items to the Object Explorer right-click context menu. 
+url: https://sqlmedic.com
