@@ -45,10 +45,10 @@ Extract the zip file and copy the SSMSObjectExplorerMenu folder into the SSMS ex
 The default install location is `C:\Program Files (x86)\Microsoft SQL Server Management Studio 19\Common7\IDE\Extensions`.
 
 When installed correctly, you should have the following folder & file structure:
-* C:\Program Files (x86)\Microsoft SQL Server Management Studio 19\Common7\IDE\Extensions\__SSMSObjectExplorerMenu\LICENSE__
-* C:\Program Files (x86)\Microsoft SQL Server Management Studio 19\Common7\IDE\Extensions\__SSMSObjectExplorerMenu\README.md__
-* C:\Program Files (x86)\Microsoft SQL Server Management Studio 19\Common7\IDE\Extensions\__SSMSObjectExplorerMenu\SSMSObjectExplorerMenu.dll__
-* C:\Program Files (x86)\Microsoft SQL Server Management Studio 19\Common7\IDE\Extensions\__SSMSObjectExplorerMenu\SSMSObjectExplorerMenu.pkgdef__
+* C:\Program Files (x86)\Microsoft SQL Server Management Studio 19\Common7\IDE\Extensions\\__SSMSObjectExplorerMenu\LICENSE__
+* C:\Program Files (x86)\Microsoft SQL Server Management Studio 19\Common7\IDE\Extensions\\__SSMSObjectExplorerMenu\README.md__
+* C:\Program Files (x86)\Microsoft SQL Server Management Studio 19\Common7\IDE\Extensions\\__SSMSObjectExplorerMenu\SSMSObjectExplorerMenu.dll__
+* C:\Program Files (x86)\Microsoft SQL Server Management Studio 19\Common7\IDE\Extensions\\__SSMSObjectExplorerMenu\SSMSObjectExplorerMenu.pkgdef__
 
 Please note that SSMS 19 does allow installing extensions in a different location. You may need to search around for the Extensions folder.
 
