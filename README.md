@@ -30,7 +30,7 @@ Please let us know what other extensions you use in SSMS. We'll try our best to 
 ### Recompile for SSMS 18.x
 
 SSMS 18.x is not officially supported, but the SSMS Object Explorer Menu extension can be recompiled with the correct dll files for SSMS 18.x and made to work.
-Download the [source code](https://github.com/brink-daniel/ssms-object-explorer-menu) and replace the `lib/SqlPackageBase.dll` and `lib/SqlWorkbench.Interfaces.dll` with your local SSMS 18.x version of the same files found in `C:\Program Files (x86)\Microsoft SQL Server Management Studio 18\Common7\IDE`. Then recompile the extension and follow the installation instructions below.
+Download the [source code](https://github.com/brink-daniel/ssms-object-explorer-menu) and replace the lib/SqlPackageBase.dll and lib/SqlWorkbench.Interfaces.dll with your local SSMS 18.x version of the same files found in C:\Program Files (x86)\Microsoft SQL Server Management Studio 18\Common7\IDE. Then recompile the extension and follow the installation instructions below.
 
 
 ## Install
@@ -45,10 +45,10 @@ Extract the zip file and copy the SSMSObjectExplorerMenu folder into the SSMS ex
 The default install location is `C:\Program Files (x86)\Microsoft SQL Server Management Studio 19\Common7\IDE\Extensions`.
 
 When installed correctly, you should have the following folder & file structure:
-* C:\Program Files (x86)\Microsoft SQL Server Management Studio 19\Common7\IDE\Extensions\\__SSMSObjectExplorerMenu\LICENSE__
-* C:\Program Files (x86)\Microsoft SQL Server Management Studio 19\Common7\IDE\Extensions\\__SSMSObjectExplorerMenu\README.md__
-* C:\Program Files (x86)\Microsoft SQL Server Management Studio 19\Common7\IDE\Extensions\\__SSMSObjectExplorerMenu\SSMSObjectExplorerMenu.dll__
-* C:\Program Files (x86)\Microsoft SQL Server Management Studio 19\Common7\IDE\Extensions\\__SSMSObjectExplorerMenu\SSMSObjectExplorerMenu.pkgdef__
+* C:\Program Files (x86)\Microsoft SQL Server Management Studio 19\Common7\IDE\Extensions\SSMSObjectExplorerMenu\LICENSE
+* C:\Program Files (x86)\Microsoft SQL Server Management Studio 19\Common7\IDE\Extensions\SSMSObjectExplorerMenu\README.md
+* C:\Program Files (x86)\Microsoft SQL Server Management Studio 19\Common7\IDE\Extensions\SSMSObjectExplorerMenu\SSMSObjectExplorerMenu.dll
+* C:\Program Files (x86)\Microsoft SQL Server Management Studio 19\Common7\IDE\Extensions\SSMSObjectExplorerMenu\SSMSObjectExplorerMenu.pkgdef
 
 Please note that SSMS 19 does allow installing extensions in a different location. You may need to search around for the Extensions folder.
 
@@ -108,7 +108,7 @@ Requirements for compiling the source code:
 * Visual Studio 2022
 * Toolset: Visual Studio extension development
 
-The `Visual Studio extension development` toolset can be installed via the `Tools > Get Tools and Features` menu inside Visual Studio.
+The Visual Studio extension development toolset can be installed via the `Tools > Get Tools and Features` menu inside Visual Studio.
 
 ## Change Log
 
