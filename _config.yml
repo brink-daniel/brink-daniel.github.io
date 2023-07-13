@@ -7,9 +7,11 @@ relative_links:
   collections: true
 include:
   - README.md
+  - Scripts.md
 remote_theme: pages-themes/minimal@v0.2.0
 logo: images/Logo.png
 title: SQLMedic
 tagline: Anything can be fixed
 description: Extension for SQL Server Management Studio for adding custom menu items to the Object Explorer right-click context menu. 
 url: https://sqlmedic.com
+show_downloads: true
