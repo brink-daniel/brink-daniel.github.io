@@ -3,6 +3,10 @@
 
 @import "{{ site.theme }}";
 
+footer {
+	text-align: center;
+}
+
 footer > a > img {
 	height: 50px;
 	width: auto;
