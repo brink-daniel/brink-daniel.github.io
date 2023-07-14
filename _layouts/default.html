@@ -14,20 +14,12 @@
   </head>
   <body>
     <div class="wrapper">
-      <header>
-        <a href="{{ "/" }}">
+      <header>        
         {% if site.logo %}
-          <img src="{{site.logo | relative_url}}" alt="{{ site.title | default: site.github.repository_name }}" />
-        {% endif %}
+        <a href="{{ "/" }}">
+		  <img src="{{site.logo | relative_url}}" alt="{{ site.title | default: site.github.repository_name }}" />
 		</a>
-		
-		{% if site.show_downloads %}
-        <ul class="downloads">
-          <li><a href="{{ site.github.zip_url }}">Download <strong>ZIP File</strong></a></li>
-          <li><a href="{{ site.github.tar_url }}">Download <strong>TAR Ball</strong></a></li>
-          <li><a href="{{ site.github.repository_url }}">View On <strong>GitHub</strong></a></li>
-        </ul>
-        {% endif %}
+		{% endif %}		
       </header>
       <section>
 
@@ -35,7 +27,11 @@
 
       </section>
       <footer>
-        
+        {% if site.show_downloads %}
+        <a href="https://github.com/brink-daniel/ssms-object-explorer-menu/releases">
+		  <img src="images/get-it-on-github.png" alt="Download latest release" />
+		</a>
+        {% endif %}
       </footer>
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
