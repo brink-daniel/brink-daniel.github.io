@@ -3,3 +3,8 @@
 
 @import "{{ site.theme }}";
 
+footer > a > img {
+	height: 80px;
+	width: auto;
+}
+
