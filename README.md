@@ -129,7 +129,7 @@ from {DATABASE}.{SCHEMA}.{TABLE}
 
 ## Compatibility
 
-This extension has been tested and used with **SQL Server Management Studio 21.1.3**.
+This extension has been tested and used with **SQL Server Management Studio 21.2.5**.
 
 You can download the latest version of SSMS for free from [Microsoft](https://learn.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms).
 
@@ -230,7 +230,7 @@ Information on how to access the Object Explorer and TreeView control was learnt
 
 ### v3.0 (2025-06-08)
 
-* SSMS 21.1.3 compatibility
+* SSMS 21.x compatibility
 
 ### v2.3 (2024-12-23)
 
