@@ -13,6 +13,11 @@ The project homepage is [https://sqlmedic.com](https://sqlmedic.com).
 
 
 
+* TOC
+{:toc}
+
+
+
 ## Install
 
 There are two installation methods available for the SSMS Object Explorer Menu extension in SQL Server Management Studio (SSMS):
