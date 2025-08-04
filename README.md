@@ -13,7 +13,7 @@ The project homepage is [https://sqlmedic.com](https://sqlmedic.com).
 
 
 
-TOC
+* TOC
 {:toc}
 
 
