@@ -7,6 +7,28 @@ footer {
 	text-align: center;
 }
 
+footer > a {
+	display: block;
+	margin-top: 10px;
+}
+
+footer > a.project-link {
+	width: fit-content;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 8px 14px;
+	border-radius: 4px;
+	background: #24292e;
+	color: #fff;
+	font-size: 14px;
+	font-weight: 600;
+	text-decoration: none;
+}
+
+footer > a.project-link:hover {
+	background: #444d56;
+}
+
 footer > a > img {
 	height: 50px;
 	width: auto;
